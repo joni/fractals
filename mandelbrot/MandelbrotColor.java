@@ -5,7 +5,7 @@ import javax.imageio.ImageIO;
 
 public class MandelbrotColor {
     public static void main(String[] args) throws Exception {
-        int width = 640, height = 300, max = 100;
+        int width = 1920, height = 1080, max = 1000;
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
         int black = 0;
         int[] colors = new int[max];
