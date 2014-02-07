@@ -4,10 +4,9 @@ import javax.imageio.ImageIO;
 
 public class MandelbrotBW {
     public static void main(String[] args) throws Exception {
-        int width = 640, height = 300, max = 100;
+        int width = 1920, height = 1080, max = 1000;
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
-        int black = 0;
-        int white = 0xFFFFFF;
+        int black = 0x000000, white = 0xFFFFFF;
 
         for (int row = 0; row < height; row++) {
             for (int col = 0; col < width; col++) {
